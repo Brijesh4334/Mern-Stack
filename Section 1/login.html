@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+
+    <style> 
+
+        *{
+            font-family: Roboto;
+        }
+
+        .card{
+            /* border: 2px solid red; */
+            width: 20%;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px 2px #0000005a;
+            box-sizing: border-box;
+            background-color: white;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 100vh;
+
+            /* background-color: aquamarine; */
+            background-image: url('https://i.pinimg.com/736x/bd/e5/71/bde57190c55720c3afc50051e3dbc715.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .form-title{
+            text-align: center;
+            font-size: 30px;
+            font-family: Roboto;
+        }
+        .text-input{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0px;
+            border-radius: 5px;
+            border: 1px solid #0000005a;
+            box-sizing: border-box; 
+        }
+        .btn{
+            margin: auto;
+            margin-top: 30px;
+            color: white;
+            background-color: blue;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 20px;
+            display: block ;
+            width: 100%;
+            border: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+        <h3 class="form-title">Login Form</h3>
+
+        <form>
+            <label for="">Email Address</label>
+            <input class="text-input" type="email">
+
+            <label for="">Password</label>
+            <input class="text-input"  type="password">
+
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
